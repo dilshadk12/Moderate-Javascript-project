@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BASSLINE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <div class="side_menu">
+            <h1>BASSLINE</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recently Played</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="song_item">
+                    <span>01</span>
+                    <img src="./thumbs/img1.jpg" alt="">
+                    <h5>Happy Hour<br>
+                        <div class="subtitle">Talha Anjum</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="song_item">
+                    <span>02</span>
+                    <img src="./thumbs/img2.jpg" alt="">
+                    <h5>Lajawaab 2<br>
+                        <div class="subtitle">Taimour Beig</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="song_item">
+                    <span>03</span>
+                    <img src="./thumbs/img3.jpg" alt="">
+                    <h5>Kyun<br>
+                        <div class="subtitle">Talha Anjum</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="song_item">
+                    <span>04</span>
+                    <img src="./thumbs/img4.jpg" alt="">
+                    <h5>Gumaan<br>
+                        <div class="subtitle">Talha Anjum</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="song_item">
+                    <span>05</span>
+                    <img src="./thumbs/img5.jpg" alt="">
+                    <h5>Downers At Dusk<br>
+                        <div class="subtitle">Talha Anjum</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="song_item">
+                    <span>06</span>
+                    <img src="./thumbs/img6.jpg" alt="">
+                    <h5>Agency<br>
+                        <div class="subtitle">Talha Anjum</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="song_item">
+                    <span>07</span>
+                    <img src="./thumbs/img7.jpg" alt="">
+                    <h5>Afsanay<br>
+                        <div class="subtitle">Young Stunners</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="song_item">
+                    <span>08</span>
+                    <img src="./thumbs/img8.jpg" alt="">
+                    <h5>Baaz<br>
+                        <div class="subtitle">JJ47, Talha Anjum</div>
+                    </h5>
+                    <i class="bi playlist_button bi-play-circle-fill" id="8"></i>
+                </li>
+            </div>
+        </div>
+
+        <div class="main_layout">
+            <nav>
+                <ul>
+                    <li>Discover</li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="search songs...">
+                </div>
+                <div class="user">
+                    <!-- <img src="./thumbs/user.jpg" alt=""> -->
+                    <i class="bi bi-person-fill"></i>
+                </div>
+
+            </nav>
+            <div class="content">
+                <h1>Talha Anjum-Happy Hour</h1>
+                <p>Larkharata hua jaam dhoond raha hu, sooraj se mukhatib wo mein shaam dhoond raha hu <br>manzar meri
+                    nazar se ye sab haseen , Walk the stage charon taraf naam goonj rha hu</p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular-songs">
+                <div class="h4">
+                    <h4>Popular Songs</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="fresh_music">
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img1.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>Happy Hour<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img2.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>Lajawaab 2<br>
+                            <div class="subtitle">Taimour Beig</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img3.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>Kyun<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img4.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>Gumaan<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img5.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>Downers At Dusk<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img6.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>Agency<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img7.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>Afsanay<br>
+                            <div class="subtitle">Young Stunners</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img8.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5>Baaz<br>
+                            <div class="subtitle">JJ47,Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img9.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="17"></i>
+                        </div>
+                        <h5>Touch Base<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img10.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="18"></i>
+                        </div>
+                        <h5>Aarzu<br>
+                            <div class="subtitle">Hasan Raheem</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img11.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="19"></i>
+                        </div>
+                        <h5>4AM in Karachi<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img12.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="20"></i>
+                        </div>
+                        <h5>One Love<br>
+                            <div class="subtitle">Shubh</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img13.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="21"></i>
+                        </div>
+                        <h5>Glass Half Full<br>
+                            <div class="subtitle">JJ47,Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img14.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="22"></i>
+                        </div>
+                        <h5>Don't Mind<br>
+                            <div class="subtitle">Young Stunners</div>
+                        </h5>
+                    </li>
+                    <!-- <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img15.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="1"></i>
+                        </div>
+                        <h5>Melancholy<br>
+                            <div class="subtitle">Talha Anjum,Umair</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img16.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="1"></i>
+                        </div>
+                        <h5>Quarantine<br>
+                            <div class="subtitle">Talha Anjum</div>
+                        </h5>
+                    </li>
+                    <li class="song_item">
+                        <div class="img_play">
+                            <img src="./thumbs/img17.jpg" alt="">
+                            <i class="bi playlist_button bi-play-circle-fill" id="1"></i>
+                        </div>
+                        <h5>Laga Reh<br>
+                            <div class="subtitle">Young Stunners</div>
+                        </h5>
+                    </li> -->
+                </div>
+            </div>
+            <div class="popular-artist">
+                <div class="h4">
+                    <h4>Popular Artist</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="./thumbs/talha anjum.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/jj47.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/shubh.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/Young stunners.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/A P Dhillon.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/A R Rahmaan.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/arijit singh.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/Diljit.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/pritam.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/siddhu.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/Drake.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/Eminem.jpg" alt="">
+                    </li>
+                    <li>
+                        <img src="./thumbs/Dua lipa.jpg" alt="">
+                    </li>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="control_bar">
+           <!-- <div class="wave">
+                <div class="wave_1"></div>
+                <div class="wave_1"></div>
+                <div class="wave_1"></div>
+                <i class="bi bi-soundwave"></i> -->
+            <!-- </div> -->
+            <!-- Poster of song  -->
+            <img src="./thumbs/img1.jpg" alt="" id="song_poster_control_bar">
+            <!-- Song Title -->
+            <h5 id="title">
+                Laga Reh 
+                <div class="subtitle">Young Stunners</div>
+            </h5>
+
+            <!-- Icons -->
+
+            <div class="icons">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start" id="back"></i>
+                <i class="bi bi-play-fill" id="play_btn"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <i class="bi bi-cloud-arrow-down-fill" id="download_song"></i>
+            </div>
+            <span id="current_start_time">0:00</span>
+            <div class="Progress-bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="progress_bar_2" id="progress_bar_2"></div>
+                <div class="pointer"></div>
+            </div>
+            <span id="current_End_time">0:30</span>
+            <div class="volume">
+                <i class="bi bi-volume-up-fill" id="Volume_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="volume_bar"></div>
+                <div class="pointer" id="volume_pointer"></div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
